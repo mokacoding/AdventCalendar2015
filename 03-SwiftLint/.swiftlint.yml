@@ -1,0 +1,27 @@
+disabled_rules:
+  - colon
+  - comma
+  - control_statement
+  - force_cast
+  - force_try
+  - leading_whitespace
+  - nesting
+  - opening_brace
+  - operator_whitespace
+  - return_arrow_whitespace
+  - statement_position
+    #- todo
+  - trailing_newline
+  - trailing_semicolon
+  - trailing_whitespace
+  # - type_name
+  - variable_name
+    #- file_length
+  - function_body_length
+  - line_length
+  - type_body_length
+  - variable_name_max_length
+  - variable_name_min_length
+file_length:
+  - 10
+  - 15
