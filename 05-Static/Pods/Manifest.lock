@@ -1,0 +1,19 @@
+PODS:
+  - Static (0.2.0)
+
+DEPENDENCIES:
+  - Static (from `https://github.com/venmo/Static`)
+
+EXTERNAL SOURCES:
+  Static:
+    :git: https://github.com/venmo/Static
+
+CHECKOUT OPTIONS:
+  Static:
+    :commit: 426f07bfde632f3c16479221379b84da3e61179b
+    :git: https://github.com/venmo/Static
+
+SPEC CHECKSUMS:
+  Static: b48f14dbacee91ac877bdf37c607f7524b1213ee
+
+COCOAPODS: 0.39.0
