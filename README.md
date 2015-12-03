@@ -7,6 +7,7 @@
 1. [Alamofire](http://theiostimes.com/advent-calendar/alamofire.html)
 1. [Chameleon](http://theiostimes.com/advent-calendar/chameleon.html)
 1. [SwiftLint](http://theiostimes.com/advent-calendar/swiftlint.html)
+1. [Async](http://theiostimes.com/advent-calendar/async.html)
 
 ---
 
