@@ -8,6 +8,8 @@
 1. [Chameleon](http://theiostimes.com/advent-calendar/chameleon.html)
 1. [SwiftLint](http://theiostimes.com/advent-calendar/swiftlint.html)
 1. [Async](http://theiostimes.com/advent-calendar/async.html)
+1. [Static](http://theiostimes.com/advent-calendar/static.html)
+1. [AMScrollingNavbar](http://theiostimes.com/advent-calendar/amscrollingnavbar.html)
 
 ---
 
