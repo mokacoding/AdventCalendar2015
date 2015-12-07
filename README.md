@@ -11,6 +11,7 @@
 1. [Static](http://theiostimes.com/advent-calendar/static.html)
 1. [AMScrollingNavbar](http://theiostimes.com/advent-calendar/amscrollingnavbar.html)
 1. [Quick and Nimble](http://theiostimes.com/advent-calendar/quick-nimble.html)
+1. [Regex](http://theiostimes.com/advent-calendar/regex.html)
 
 ---
 
