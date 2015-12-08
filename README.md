@@ -14,6 +14,7 @@
 1. [Regex](http://theiostimes.com/advent-calendar/regex.html)
 1. [JSONCodable](http://theiostimes.com/advent-calendar/jsoncodable.html)
 1. [Cartography](http://theiostimes.com/advent-calendar/cartography.html)
+1. [SwiftGen](http://theiostimes.com/advent-calendar/swiftgen.html)
 
 ---
 
