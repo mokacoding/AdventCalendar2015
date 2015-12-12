@@ -1,0 +1,12 @@
+PODS:
+  - Prephirences (2.0.2):
+    - Prephirences/Core (= 2.0.2)
+  - Prephirences/Core (2.0.2)
+
+DEPENDENCIES:
+  - Prephirences
+
+SPEC CHECKSUMS:
+  Prephirences: c8d6acb2f8335535b3e9fb6ec456c9311405258e
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module Pods_Perisomething {
+  umbrella header "Pods-Perisomething-umbrella.h"
+
+  export *
+  module * { export * }
+}
