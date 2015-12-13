@@ -1,0 +1,10 @@
+PODS:
+  - PermissionScope (1.0.1)
+
+DEPENDENCIES:
+  - PermissionScope
+
+SPEC CHECKSUMS:
+  PermissionScope: 9767066cedefd211d90a8c4f92f6f1a987085ee8
+
+COCOAPODS: 0.39.0

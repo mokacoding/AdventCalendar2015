@@ -1,0 +1,6 @@
+framework module Pods_Permission {
+  umbrella header "Pods-Permission-umbrella.h"
+
+  export *
+  module * { export * }
+}
