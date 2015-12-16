@@ -20,6 +20,7 @@
 1. [Realm](http://theiostimes.com/advent-calendar/realm.html)
 1. [Eureka](http://theiostimes.com/advent-calendar/eureka.html)
 1. [KeychainAccess](http://theiostimes.com/advent-calendar/keychainaccess.html)
+1. [ios-charts](http://theiostimes.com/advent-calendar/ioscharts.html)
 
 ---
 

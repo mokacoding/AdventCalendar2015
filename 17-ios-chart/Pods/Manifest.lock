@@ -1,0 +1,10 @@
+PODS:
+  - Charts (2.1.6)
+
+DEPENDENCIES:
+  - Charts
+
+SPEC CHECKSUMS:
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+
+COCOAPODS: 0.39.0
