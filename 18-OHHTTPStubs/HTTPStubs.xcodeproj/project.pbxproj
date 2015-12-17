@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFCBCC01C21E95500EEDD7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCBF1C21E95500EEDD7F /* AppDelegate.swift */; };
+		3FFCBCC51C21E95500EEDD7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFCBCC31C21E95500EEDD7F /* Main.storyboard */; };
+		3FFCBCC71C21E95500EEDD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFCBCC61C21E95500EEDD7F /* Assets.xcassets */; };
+		3FFCBCCA1C21E95500EEDD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFCBCC81C21E95500EEDD7F /* LaunchScreen.storyboard */; };
+		3FFCBCE31C21E9C000EEDD7F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCDF1C21E9C000EEDD7F /* APIClient.swift */; };
+		3FFCBCE41C21E9C000EEDD7F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCE01C21E9C000EEDD7F /* Post.swift */; };
+		3FFCBCE51C21E9C000EEDD7F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCE11C21E9C000EEDD7F /* User.swift */; };
+		3FFCBCE61C21E9C000EEDD7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCE21C21E9C000EEDD7F /* ViewController.swift */; };
+		3FFCBCE91C21E9E800EEDD7F /* APIClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCBCE81C21E9E800EEDD7F /* APIClientSpec.swift */; };
+		3FFCBCEC1C21EA4600EEDD7F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCEA1C21EA4600EEDD7F /* Alamofire.framework */; };
+		3FFCBCED1C21EA4600EEDD7F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCEA1C21EA4600EEDD7F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FFCBCEE1C21EA4600EEDD7F /* JSONCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCEB1C21EA4600EEDD7F /* JSONCodable.framework */; };
+		3FFCBCEF1C21EA4600EEDD7F /* JSONCodable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCEB1C21EA4600EEDD7F /* JSONCodable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FFCBCF41C21EA6900EEDD7F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCF11C21EA6900EEDD7F /* Nimble.framework */; };
+		3FFCBCF51C21EA6900EEDD7F /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCF21C21EA6900EEDD7F /* OHHTTPStubs.framework */; };
+		3FFCBCF61C21EA6900EEDD7F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFCBCF31C21EA6900EEDD7F /* Quick.framework */; };
+		3FFCBD071C22504D00EEDD7F /* success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FFCBD061C22504D00EEDD7F /* success_response.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFCBCD11C21E95500EEDD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFCBCB41C21E95500EEDD7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFCBCBB1C21E95500EEDD7F;
+			remoteInfo = HTTPStubs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FFCBCF01C21EA4700EEDD7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FFCBCED1C21EA4600EEDD7F /* Alamofire.framework in Embed Frameworks */,
+				3FFCBCEF1C21EA4600EEDD7F /* JSONCodable.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FFCBCBC1C21E95500EEDD7F /* HTTPStubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPStubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFCBCBF1C21E95500EEDD7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFCBCC41C21E95500EEDD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFCBCC61C21E95500EEDD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFCBCC91C21E95500EEDD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFCBCCB1C21E95500EEDD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFCBCD01C21E95500EEDD7F /* HTTPStubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPStubsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFCBCD61C21E95500EEDD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFCBCDF1C21E9C000EEDD7F /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3FFCBCE01C21E9C000EEDD7F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3FFCBCE11C21E9C000EEDD7F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FFCBCE21C21E9C000EEDD7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FFCBCE71C21E9E700EEDD7F /* HTTPStubsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTTPStubsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FFCBCE81C21E9E800EEDD7F /* APIClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientSpec.swift; sourceTree = "<group>"; };
+		3FFCBCEA1C21EA4600EEDD7F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3FFCBCEB1C21EA4600EEDD7F /* JSONCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONCodable.framework; path = Carthage/Build/iOS/JSONCodable.framework; sourceTree = "<group>"; };
+		3FFCBCF11C21EA6900EEDD7F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		3FFCBCF21C21EA6900EEDD7F /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		3FFCBCF31C21EA6900EEDD7F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		3FFCBD061C22504D00EEDD7F /* success_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success_response.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFCBCB91C21E95500EEDD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBCEC1C21EA4600EEDD7F /* Alamofire.framework in Frameworks */,
+				3FFCBCEE1C21EA4600EEDD7F /* JSONCodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFCBCCD1C21E95500EEDD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBCF41C21EA6900EEDD7F /* Nimble.framework in Frameworks */,
+				3FFCBCF51C21EA6900EEDD7F /* OHHTTPStubs.framework in Frameworks */,
+				3FFCBCF61C21EA6900EEDD7F /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFCBCB31C21E95500EEDD7F = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCBE1C21E95500EEDD7F /* HTTPStubs */,
+				3FFCBCD31C21E95500EEDD7F /* HTTPStubsTests */,
+				3FFCBCBD1C21E95500EEDD7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFCBCBD1C21E95500EEDD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCBC1C21E95500EEDD7F /* HTTPStubs.app */,
+				3FFCBCD01C21E95500EEDD7F /* HTTPStubsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFCBCBE1C21E95500EEDD7F /* HTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCFA1C21EAFB00EEDD7F /* Frameworks */,
+				3FFCBCDF1C21E9C000EEDD7F /* APIClient.swift */,
+				3FFCBCE01C21E9C000EEDD7F /* Post.swift */,
+				3FFCBCE11C21E9C000EEDD7F /* User.swift */,
+				3FFCBCE21C21E9C000EEDD7F /* ViewController.swift */,
+				3FFCBCBF1C21E95500EEDD7F /* AppDelegate.swift */,
+				3FFCBCC31C21E95500EEDD7F /* Main.storyboard */,
+				3FFCBCC61C21E95500EEDD7F /* Assets.xcassets */,
+				3FFCBCC81C21E95500EEDD7F /* LaunchScreen.storyboard */,
+				3FFCBCCB1C21E95500EEDD7F /* Info.plist */,
+			);
+			path = HTTPStubs;
+			sourceTree = "<group>";
+		};
+		3FFCBCD31C21E95500EEDD7F /* HTTPStubsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCF91C21EAED00EEDD7F /* Frameworks */,
+				3FFCBCE81C21E9E800EEDD7F /* APIClientSpec.swift */,
+				3FFCBCD61C21E95500EEDD7F /* Info.plist */,
+				3FFCBCE71C21E9E700EEDD7F /* HTTPStubsTests-Bridging-Header.h */,
+				3FFCBD061C22504D00EEDD7F /* success_response.json */,
+			);
+			path = HTTPStubsTests;
+			sourceTree = "<group>";
+		};
+		3FFCBCF91C21EAED00EEDD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCF11C21EA6900EEDD7F /* Nimble.framework */,
+				3FFCBCF21C21EA6900EEDD7F /* OHHTTPStubs.framework */,
+				3FFCBCF31C21EA6900EEDD7F /* Quick.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FFCBCFA1C21EAFB00EEDD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFCBCEA1C21EA4600EEDD7F /* Alamofire.framework */,
+				3FFCBCEB1C21EA4600EEDD7F /* JSONCodable.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFCBCBB1C21E95500EEDD7F /* HTTPStubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFCBCD91C21E95500EEDD7F /* Build configuration list for PBXNativeTarget "HTTPStubs" */;
+			buildPhases = (
+				3FFCBCB81C21E95500EEDD7F /* Sources */,
+				3FFCBCB91C21E95500EEDD7F /* Frameworks */,
+				3FFCBCBA1C21E95500EEDD7F /* Resources */,
+				3FFCBCF01C21EA4700EEDD7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPStubs;
+			productName = HTTPStubs;
+			productReference = 3FFCBCBC1C21E95500EEDD7F /* HTTPStubs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFCBCCF1C21E95500EEDD7F /* HTTPStubsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFCBCDC1C21E95500EEDD7F /* Build configuration list for PBXNativeTarget "HTTPStubsTests" */;
+			buildPhases = (
+				3FFCBCCC1C21E95500EEDD7F /* Sources */,
+				3FFCBCCD1C21E95500EEDD7F /* Frameworks */,
+				3FFCBCCE1C21E95500EEDD7F /* Resources */,
+				3FFCBCF81C21EAA400EEDD7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFCBCD21C21E95500EEDD7F /* PBXTargetDependency */,
+			);
+			name = HTTPStubsTests;
+			productName = HTTPStubsTests;
+			productReference = 3FFCBCD01C21E95500EEDD7F /* HTTPStubsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFCBCB41C21E95500EEDD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mokacoding;
+				TargetAttributes = {
+					3FFCBCBB1C21E95500EEDD7F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3FFCBCCF1C21E95500EEDD7F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3FFCBCBB1C21E95500EEDD7F;
+					};
+				};
+			};
+			buildConfigurationList = 3FFCBCB71C21E95500EEDD7F /* Build configuration list for PBXProject "HTTPStubs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFCBCB31C21E95500EEDD7F;
+			productRefGroup = 3FFCBCBD1C21E95500EEDD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFCBCBB1C21E95500EEDD7F /* HTTPStubs */,
+				3FFCBCCF1C21E95500EEDD7F /* HTTPStubsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFCBCBA1C21E95500EEDD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBCCA1C21E95500EEDD7F /* LaunchScreen.storyboard in Resources */,
+				3FFCBCC71C21E95500EEDD7F /* Assets.xcassets in Resources */,
+				3FFCBCC51C21E95500EEDD7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFCBCCE1C21E95500EEDD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBD071C22504D00EEDD7F /* success_response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFCBCF81C21EAA400EEDD7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFCBCB81C21E95500EEDD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBCE61C21E9C000EEDD7F /* ViewController.swift in Sources */,
+				3FFCBCE51C21E9C000EEDD7F /* User.swift in Sources */,
+				3FFCBCE41C21E9C000EEDD7F /* Post.swift in Sources */,
+				3FFCBCC01C21E95500EEDD7F /* AppDelegate.swift in Sources */,
+				3FFCBCE31C21E9C000EEDD7F /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFCBCCC1C21E95500EEDD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFCBCE91C21E9E800EEDD7F /* APIClientSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFCBCD21C21E95500EEDD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFCBCBB1C21E95500EEDD7F /* HTTPStubs */;
+			targetProxy = 3FFCBCD11C21E95500EEDD7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFCBCC31C21E95500EEDD7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFCBCC41C21E95500EEDD7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFCBCC81C21E95500EEDD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFCBCC91C21E95500EEDD7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFCBCD71C21E95500EEDD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FFCBCD81C21E95500EEDD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFCBCDA1C21E95500EEDD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HTTPStubs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.HTTPStubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFCBCDB1C21E95500EEDD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HTTPStubs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.HTTPStubs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFCBCDD1C21E95500EEDD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HTTPStubsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.HTTPStubsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HTTPStubsTests/HTTPStubsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPStubs.app/HTTPStubs";
+			};
+			name = Debug;
+		};
+		3FFCBCDE1C21E95500EEDD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HTTPStubsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mokacoding.HTTPStubsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HTTPStubsTests/HTTPStubsTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTTPStubs.app/HTTPStubs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFCBCB71C21E95500EEDD7F /* Build configuration list for PBXProject "HTTPStubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFCBCD71C21E95500EEDD7F /* Debug */,
+				3FFCBCD81C21E95500EEDD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFCBCD91C21E95500EEDD7F /* Build configuration list for PBXNativeTarget "HTTPStubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFCBCDA1C21E95500EEDD7F /* Debug */,
+				3FFCBCDB1C21E95500EEDD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFCBCDC1C21E95500EEDD7F /* Build configuration list for PBXNativeTarget "HTTPStubsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFCBCDD1C21E95500EEDD7F /* Debug */,
+				3FFCBCDE1C21E95500EEDD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFCBCB41C21E95500EEDD7F /* Project object */;
+}

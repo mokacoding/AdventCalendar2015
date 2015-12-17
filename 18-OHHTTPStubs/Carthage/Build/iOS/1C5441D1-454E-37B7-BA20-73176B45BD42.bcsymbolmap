@@ -1,0 +1,1285 @@
+BCSymbolMap Version: 1.0
++[OHHTTPStubsDescriptor stubDescriptorWithTestBlock:responseBlock:]
+-[OHHTTPStubsDescriptor description]
+-[OHHTTPStubsDescriptor name]
+-[OHHTTPStubsDescriptor setName:]
+-[OHHTTPStubsDescriptor testBlock]
+-[OHHTTPStubsDescriptor setTestBlock:]
+-[OHHTTPStubsDescriptor responseBlock]
+-[OHHTTPStubsDescriptor setResponseBlock:]
+-[OHHTTPStubsDescriptor .cxx_destruct]
++[OHHTTPStubs sharedInstance]
+__29+[OHHTTPStubs sharedInstance]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
++[OHHTTPStubs initialize]
+-[OHHTTPStubs init]
+-[OHHTTPStubs dealloc]
++[OHHTTPStubs stubRequestsPassingTest:withStubResponse:]
++[OHHTTPStubs removeStub:]
++[OHHTTPStubs removeAllStubs]
++[OHHTTPStubs setEnabled:]
++[OHHTTPStubs setEnabled:forSessionConfiguration:]
++[OHHTTPStubs allStubs]
++[OHHTTPStubs onStubActivation:]
+-[OHHTTPStubs addStub:]
+-[OHHTTPStubs removeStub:]
+-[OHHTTPStubs removeAllStubs]
+-[OHHTTPStubs firstStubPassingTestForRequest:]
+-[OHHTTPStubs stubDescriptors]
+-[OHHTTPStubs setStubDescriptors:]
+-[OHHTTPStubs onStubActivationBlock]
+-[OHHTTPStubs setOnStubActivationBlock:]
+-[OHHTTPStubs .cxx_destruct]
++[OHHTTPStubsProtocol canInitWithRequest:]
+-[OHHTTPStubsProtocol initWithRequest:cachedResponse:client:]
++[OHHTTPStubsProtocol canonicalRequestForRequest:]
+-[OHHTTPStubsProtocol cachedResponse]
+-[OHHTTPStubsProtocol startLoading]
+__35-[OHHTTPStubsProtocol startLoading]_block_invoke
+__copy_helper_block_224
+__destroy_helper_block_225
+__35-[OHHTTPStubsProtocol startLoading]_block_invoke229
+__35-[OHHTTPStubsProtocol startLoading]_block_invoke_2
+__copy_helper_block_242
+__destroy_helper_block_243
+__copy_helper_block_248
+__destroy_helper_block_249
+__35-[OHHTTPStubsProtocol startLoading]_block_invoke253
+__copy_helper_block_254
+__destroy_helper_block_255
+-[OHHTTPStubsProtocol stopLoading]
+-[OHHTTPStubsProtocol streamDataForClient:withStubResponse:completion:]
+-[OHHTTPStubsProtocol streamDataForClient:fromStream:timingInfo:completion:]
+__76-[OHHTTPStubsProtocol streamDataForClient:fromStream:timingInfo:completion:]_block_invoke
+__copy_helper_block_265
+__destroy_helper_block_266
+__76-[OHHTTPStubsProtocol streamDataForClient:fromStream:timingInfo:completion:]_block_invoke273
+__copy_helper_block_276
+__destroy_helper_block_277
+-[OHHTTPStubsProtocol executeOnClientRunLoopAfterDelay:block:]
+__62-[OHHTTPStubsProtocol executeOnClientRunLoopAfterDelay:block:]_block_invoke
+__copy_helper_block_283
+__destroy_helper_block_284
+-[OHHTTPStubsProtocol stopped]
+-[OHHTTPStubsProtocol setStopped:]
+-[OHHTTPStubsProtocol stub]
+-[OHHTTPStubsProtocol setStub:]
+-[OHHTTPStubsProtocol clientRunLoop]
+-[OHHTTPStubsProtocol setClientRunLoop:]
+-[OHHTTPStubsProtocol .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_1
+OBJC_SELECTOR_REFERENCES_2
+OBJC_METH_VAR_NAME_3
+OBJC_SELECTOR_REFERENCES_4
+OBJC_CLASSLIST_REFERENCES_$_5
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_6
+OBJC_SELECTOR_REFERENCES_7
+OBJC_METH_VAR_NAME_8
+OBJC_SELECTOR_REFERENCES_9
+OBJC_METH_VAR_NAME_10
+OBJC_SELECTOR_REFERENCES_11
+OBJC_IVAR_$_OHHTTPStubsDescriptor._name
+OBJC_IVAR_$_OHHTTPStubsDescriptor._testBlock
+OBJC_IVAR_$_OHHTTPStubsDescriptor._responseBlock
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_12
+OBJC_METH_VAR_TYPE_
+l_OBJC_$_CLASS_METHODS_OHHTTPStubsDescriptor
+OBJC_METH_VAR_TYPE_13
+OBJC_METH_VAR_TYPE_14
+OBJC_METH_VAR_NAME_15
+OBJC_METH_VAR_TYPE_16
+OBJC_METH_VAR_TYPE_17
+OBJC_METH_VAR_NAME_18
+OBJC_METH_VAR_TYPE_19
+OBJC_METH_VAR_TYPE_20
+OBJC_METH_VAR_NAME_21
+OBJC_METH_VAR_NAME_22
+OBJC_METH_VAR_TYPE_23
+OBJC_METH_VAR_NAME_24
+OBJC_METH_VAR_TYPE_25
+OBJC_METH_VAR_NAME_26
+OBJC_METH_VAR_TYPE_27
+OBJC_METH_VAR_NAME_28
+OBJC_METH_VAR_TYPE_29
+OBJC_METH_VAR_NAME_30
+OBJC_METH_VAR_TYPE_31
+OBJC_METH_VAR_NAME_32
+OBJC_METH_VAR_NAME_33
+OBJC_METH_VAR_TYPE_34
+OBJC_METH_VAR_NAME_35
+OBJC_METH_VAR_TYPE_36
+OBJC_METH_VAR_NAME_37
+OBJC_METH_VAR_NAME_38
+OBJC_METH_VAR_TYPE_39
+OBJC_METH_VAR_NAME_40
+OBJC_METH_VAR_NAME_41
+OBJC_METH_VAR_TYPE_42
+OBJC_METH_VAR_NAME_43
+OBJC_METH_VAR_TYPE_44
+OBJC_METH_VAR_NAME_45
+OBJC_METH_VAR_NAME_46
+OBJC_METH_VAR_NAME_47
+OBJC_METH_VAR_NAME_48
+OBJC_CLASS_NAME_49
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_50
+OBJC_PROP_NAME_ATTR_51
+OBJC_PROP_NAME_ATTR_52
+OBJC_PROP_NAME_ATTR_53
+OBJC_PROP_NAME_ATTR_54
+OBJC_PROP_NAME_ATTR_55
+l_OBJC_$_PROP_LIST_NSObject
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_$_PROTOCOL_REFS_OHHTTPStubsDescriptor
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OHHTTPStubsDescriptor
+OBJC_PROP_NAME_ATTR_56
+OBJC_PROP_NAME_ATTR_57
+l_OBJC_$_PROP_LIST_OHHTTPStubsDescriptor
+l_OBJC_$_PROTOCOL_METHOD_TYPES_OHHTTPStubsDescriptor
+l_OBJC_PROTOCOL_$_OHHTTPStubsDescriptor
+l_OBJC_LABEL_PROTOCOL_$_OHHTTPStubsDescriptor
+l_OBJC_CLASS_PROTOCOLS_$_OHHTTPStubsDescriptor
+l_OBJC_METACLASS_RO_$_OHHTTPStubsDescriptor
+OBJC_CLASS_NAME_58
+OBJC_METH_VAR_NAME_59
+OBJC_METH_VAR_TYPE_60
+OBJC_METH_VAR_NAME_61
+OBJC_METH_VAR_TYPE_62
+OBJC_METH_VAR_TYPE_63
+OBJC_METH_VAR_NAME_64
+l_OBJC_$_INSTANCE_METHODS_OHHTTPStubsDescriptor
+OBJC_METH_VAR_NAME_65
+OBJC_METH_VAR_TYPE_66
+OBJC_METH_VAR_NAME_67
+OBJC_METH_VAR_TYPE_68
+OBJC_METH_VAR_NAME_69
+l_OBJC_$_INSTANCE_VARIABLES_OHHTTPStubsDescriptor
+OBJC_PROP_NAME_ATTR_70
+OBJC_PROP_NAME_ATTR_71
+OBJC_PROP_NAME_ATTR_72
+OBJC_PROP_NAME_ATTR_73
+OBJC_PROP_NAME_ATTR_74
+l_OBJC_$_PROP_LIST_OHHTTPStubsDescriptor75
+l_OBJC_CLASS_RO_$_OHHTTPStubsDescriptor
+sharedInstance.sharedInstance
+sharedInstance.predicate
+OBJC_METH_VAR_NAME_76
+OBJC_SELECTOR_REFERENCES_77
+OBJC_METH_VAR_NAME_78
+OBJC_SELECTOR_REFERENCES_79
+.str80
+OBJC_CLASS_NAME_81
+__block_descriptor_tmp
+OBJC_CLASSLIST_REFERENCES_$_82
+OBJC_METH_VAR_NAME_83
+OBJC_SELECTOR_REFERENCES_84
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_CLASSLIST_REFERENCES_$_85
+OBJC_METH_VAR_NAME_86
+OBJC_SELECTOR_REFERENCES_87
+OBJC_IVAR_$_OHHTTPStubs._stubDescriptors
+OBJC_METH_VAR_NAME_88
+OBJC_SELECTOR_REFERENCES_89
+OBJC_SELECTOR_REFERENCES_90
+OBJC_METH_VAR_NAME_91
+OBJC_SELECTOR_REFERENCES_92
+OBJC_METH_VAR_NAME_93
+OBJC_SELECTOR_REFERENCES_94
+OBJC_METH_VAR_NAME_95
+OBJC_SELECTOR_REFERENCES_96
+OBJC_METH_VAR_NAME_97
+OBJC_SELECTOR_REFERENCES_98
+setEnabled:.currentEnabledState
+OBJC_CLASSLIST_REFERENCES_$_99
+OBJC_CLASSLIST_REFERENCES_$_100
+OBJC_METH_VAR_NAME_101
+OBJC_SELECTOR_REFERENCES_102
+OBJC_METH_VAR_NAME_103
+OBJC_SELECTOR_REFERENCES_104
+OBJC_METH_VAR_NAME_105
+OBJC_SELECTOR_REFERENCES_106
+OBJC_SELECTOR_REFERENCES_107
+OBJC_METH_VAR_NAME_108
+OBJC_SELECTOR_REFERENCES_109
+OBJC_METH_VAR_NAME_110
+OBJC_SELECTOR_REFERENCES_111
+OBJC_METH_VAR_NAME_112
+OBJC_SELECTOR_REFERENCES_113
+OBJC_METH_VAR_NAME_114
+OBJC_SELECTOR_REFERENCES_115
+OBJC_METH_VAR_NAME_116
+OBJC_SELECTOR_REFERENCES_117
+.str118
+_unnamed_cfstring_119
+OBJC_METH_VAR_NAME_120
+OBJC_SELECTOR_REFERENCES_121
+OBJC_METH_VAR_NAME_122
+OBJC_SELECTOR_REFERENCES_123
+OBJC_METH_VAR_NAME_124
+OBJC_SELECTOR_REFERENCES_125
+OBJC_METH_VAR_NAME_126
+OBJC_SELECTOR_REFERENCES_127
+OBJC_METH_VAR_NAME_128
+OBJC_SELECTOR_REFERENCES_129
+OBJC_METH_VAR_NAME_130
+OBJC_SELECTOR_REFERENCES_131
+OBJC_SELECTOR_REFERENCES_132
+OBJC_IVAR_$_OHHTTPStubs._onStubActivationBlock
+OBJC_CLASS_NAME_133
+OBJC_METH_VAR_NAME_134
+OBJC_METH_VAR_NAME_135
+OBJC_METH_VAR_TYPE_136
+OBJC_METH_VAR_NAME_137
+OBJC_METH_VAR_TYPE_138
+OBJC_METH_VAR_NAME_139
+OBJC_METH_VAR_NAME_140
+l_OBJC_$_CLASS_METHODS_OHHTTPStubs
+l_OBJC_METACLASS_RO_$_OHHTTPStubs
+OBJC_CLASS_NAME_141
+OBJC_METH_VAR_NAME_142
+OBJC_METH_VAR_TYPE_143
+OBJC_METH_VAR_NAME_144
+OBJC_METH_VAR_NAME_145
+l_OBJC_$_INSTANCE_METHODS_OHHTTPStubs
+OBJC_METH_VAR_NAME_146
+OBJC_METH_VAR_TYPE_147
+OBJC_METH_VAR_NAME_148
+l_OBJC_$_INSTANCE_VARIABLES_OHHTTPStubs
+OBJC_PROP_NAME_ATTR_149
+OBJC_PROP_NAME_ATTR_150
+OBJC_PROP_NAME_ATTR_151
+OBJC_PROP_NAME_ATTR_152
+l_OBJC_$_PROP_LIST_OHHTTPStubs
+l_OBJC_CLASS_RO_$_OHHTTPStubs
+OBJC_SELECTOR_REFERENCES_153
+OBJC_CLASSLIST_SUP_REFS_$_154
+OBJC_METH_VAR_NAME_155
+OBJC_SELECTOR_REFERENCES_156
+OBJC_METH_VAR_NAME_157
+OBJC_SELECTOR_REFERENCES_158
+OBJC_METH_VAR_NAME_159
+OBJC_SELECTOR_REFERENCES_160
+OBJC_METH_VAR_NAME_161
+OBJC_SELECTOR_REFERENCES_162
+OBJC_METH_VAR_NAME_163
+OBJC_SELECTOR_REFERENCES_164
+OBJC_METH_VAR_NAME_165
+OBJC_SELECTOR_REFERENCES_166
+OBJC_CLASSLIST_REFERENCES_$_167
+.str168
+_unnamed_cfstring_169
+.str170
+_unnamed_cfstring_171
+OBJC_METH_VAR_NAME_172
+OBJC_SELECTOR_REFERENCES_173
+OBJC_METH_VAR_NAME_174
+OBJC_SELECTOR_REFERENCES_175
+OBJC_CLASSLIST_REFERENCES_$_176
+.str177
+_unnamed_cfstring_178
+OBJC_METH_VAR_NAME_179
+OBJC_SELECTOR_REFERENCES_180
+OBJC_METH_VAR_NAME_181
+OBJC_SELECTOR_REFERENCES_182
+OBJC_SELECTOR_REFERENCES_183
+OBJC_SELECTOR_REFERENCES_184
+OBJC_METH_VAR_NAME_185
+OBJC_SELECTOR_REFERENCES_186
+OBJC_CLASSLIST_REFERENCES_$_187
+OBJC_METH_VAR_NAME_188
+OBJC_SELECTOR_REFERENCES_189
+.str190
+_unnamed_cfstring_191
+OBJC_METH_VAR_NAME_192
+OBJC_SELECTOR_REFERENCES_193
+OBJC_METH_VAR_NAME_194
+OBJC_SELECTOR_REFERENCES_195
+OBJC_METH_VAR_NAME_196
+OBJC_SELECTOR_REFERENCES_197
+OBJC_CLASSLIST_REFERENCES_$_198
+OBJC_METH_VAR_NAME_199
+OBJC_SELECTOR_REFERENCES_200
+OBJC_CLASSLIST_REFERENCES_$_201
+OBJC_METH_VAR_NAME_202
+OBJC_SELECTOR_REFERENCES_203
+OBJC_METH_VAR_NAME_204
+OBJC_SELECTOR_REFERENCES_205
+OBJC_METH_VAR_NAME_206
+OBJC_SELECTOR_REFERENCES_207
+.str208
+_unnamed_cfstring_209
+OBJC_METH_VAR_NAME_210
+OBJC_SELECTOR_REFERENCES_211
+OBJC_CLASSLIST_REFERENCES_$_212
+OBJC_METH_VAR_NAME_213
+OBJC_SELECTOR_REFERENCES_214
+OBJC_CLASSLIST_REFERENCES_$_215
+OBJC_METH_VAR_NAME_216
+OBJC_SELECTOR_REFERENCES_217
+OBJC_METH_VAR_NAME_218
+OBJC_SELECTOR_REFERENCES_219
+OBJC_METH_VAR_NAME_220
+OBJC_SELECTOR_REFERENCES_221
+OBJC_METH_VAR_NAME_222
+OBJC_SELECTOR_REFERENCES_223
+__block_descriptor_tmp226
+OBJC_METH_VAR_NAME_227
+OBJC_SELECTOR_REFERENCES_228
+OBJC_METH_VAR_NAME_230
+OBJC_SELECTOR_REFERENCES_231
+OBJC_METH_VAR_NAME_232
+OBJC_SELECTOR_REFERENCES_233
+OBJC_METH_VAR_NAME_234
+OBJC_SELECTOR_REFERENCES_235
+OBJC_METH_VAR_NAME_236
+OBJC_SELECTOR_REFERENCES_237
+OBJC_METH_VAR_NAME_238
+OBJC_SELECTOR_REFERENCES_239
+OBJC_METH_VAR_NAME_240
+OBJC_SELECTOR_REFERENCES_241
+.str244
+__block_descriptor_tmp245
+OBJC_METH_VAR_NAME_246
+OBJC_SELECTOR_REFERENCES_247
+__block_descriptor_tmp250
+OBJC_METH_VAR_NAME_251
+OBJC_SELECTOR_REFERENCES_252
+__block_descriptor_tmp256
+OBJC_METH_VAR_NAME_257
+OBJC_SELECTOR_REFERENCES_258
+OBJC_METH_VAR_NAME_259
+OBJC_SELECTOR_REFERENCES_260
+OBJC_METH_VAR_NAME_261
+OBJC_SELECTOR_REFERENCES_262
+OBJC_METH_VAR_NAME_263
+OBJC_SELECTOR_REFERENCES_264
+__block_descriptor_tmp267
+OBJC_METH_VAR_NAME_268
+OBJC_SELECTOR_REFERENCES_269
+OBJC_CLASSLIST_REFERENCES_$_270
+OBJC_METH_VAR_NAME_271
+OBJC_SELECTOR_REFERENCES_272
+OBJC_METH_VAR_NAME_274
+OBJC_SELECTOR_REFERENCES_275
+__block_descriptor_tmp278
+OBJC_METH_VAR_NAME_279
+OBJC_SELECTOR_REFERENCES_280
+OBJC_METH_VAR_NAME_281
+OBJC_SELECTOR_REFERENCES_282
+__block_descriptor_tmp285
+OBJC_IVAR_$_OHHTTPStubsProtocol._stopped
+OBJC_IVAR_$_OHHTTPStubsProtocol._stub
+OBJC_IVAR_$_OHHTTPStubsProtocol._clientRunLoop
+OBJC_CLASS_NAME_286
+OBJC_METH_VAR_NAME_287
+OBJC_METH_VAR_NAME_288
+l_OBJC_$_CLASS_METHODS_OHHTTPStubsProtocol
+l_OBJC_METACLASS_RO_$_OHHTTPStubsProtocol
+OBJC_CLASS_NAME_289
+OBJC_METH_VAR_TYPE_290
+OBJC_METH_VAR_NAME_291
+OBJC_METH_VAR_NAME_292
+OBJC_METH_VAR_NAME_293
+OBJC_METH_VAR_TYPE_294
+OBJC_METH_VAR_TYPE_295
+OBJC_METH_VAR_TYPE_296
+OBJC_METH_VAR_TYPE_297
+OBJC_METH_VAR_TYPE_298
+l_OBJC_$_INSTANCE_METHODS_OHHTTPStubsProtocol
+OBJC_METH_VAR_NAME_299
+OBJC_METH_VAR_TYPE_300
+OBJC_METH_VAR_NAME_301
+OBJC_METH_VAR_TYPE_302
+OBJC_METH_VAR_NAME_303
+OBJC_METH_VAR_TYPE_304
+l_OBJC_$_INSTANCE_VARIABLES_OHHTTPStubsProtocol
+OBJC_PROP_NAME_ATTR_305
+OBJC_PROP_NAME_ATTR_306
+OBJC_PROP_NAME_ATTR_307
+OBJC_PROP_NAME_ATTR_308
+OBJC_PROP_NAME_ATTR_309
+OBJC_PROP_NAME_ATTR_310
+l_OBJC_$_PROP_LIST_OHHTTPStubsProtocol
+l_OBJC_CLASS_RO_$_OHHTTPStubsProtocol
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.0.0 (clang-700.1.76)
+/Users/olivier/Library/Developer/Xcode/DerivedData/ModuleCache/3HCIV36SQC0I5/CoreFoundation-FENZBMYRBWKF.pcm
+CoreFoundation
+/Users/olivier/Library/Developer/Xcode/DerivedData/ModuleCache/3HCIV36SQC0I5/ObjectiveC-YTZVU93X149C.pcm
+ObjectiveC
+/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/objc
+/Users/olivier/Library/Developer/Xcode/DerivedData/ModuleCache/3HCIV36SQC0I5/Foundation-1EW4ZULTHY2E4.pcm
+Foundation
+/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/Foundation.framework
+_dispatch_once
+/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/include/dispatch/once.h
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs
+-[OHHTTPStubsProtocol .cxx_destruct]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/OHHTTPStubs.m
+-[OHHTTPStubsProtocol setClientRunLoop:]
+-[OHHTTPStubsProtocol clientRunLoop]
+-[OHHTTPStubsProtocol setStub:]
+-[OHHTTPStubsProtocol stub]
+-[OHHTTPStubsProtocol setStopped:]
+-[OHHTTPStubsProtocol stopped]
+-[OHHTTPStubsProtocol executeOnClientRunLoopAfterDelay:block:]
+-[OHHTTPStubsProtocol streamDataForClient:fromStream:timingInfo:completion:]
+-[OHHTTPStubsProtocol streamDataForClient:withStubResponse:completion:]
+-[OHHTTPStubsProtocol stopLoading]
+-[OHHTTPStubsProtocol startLoading]
+-[OHHTTPStubsProtocol cachedResponse]
++[OHHTTPStubsProtocol canonicalRequestForRequest:]
+-[OHHTTPStubsProtocol initWithRequest:cachedResponse:client:]
++[OHHTTPStubsProtocol canInitWithRequest:]
+-[OHHTTPStubs .cxx_destruct]
+-[OHHTTPStubs setOnStubActivationBlock:]
+-[OHHTTPStubs onStubActivationBlock]
+-[OHHTTPStubs setStubDescriptors:]
+-[OHHTTPStubs stubDescriptors]
+-[OHHTTPStubs firstStubPassingTestForRequest:]
+-[OHHTTPStubs removeAllStubs]
+-[OHHTTPStubs removeStub:]
+-[OHHTTPStubs addStub:]
++[OHHTTPStubs onStubActivation:]
++[OHHTTPStubs allStubs]
++[OHHTTPStubs setEnabled:forSessionConfiguration:]
++[OHHTTPStubs setEnabled:]
++[OHHTTPStubs removeAllStubs]
++[OHHTTPStubs removeStub:]
++[OHHTTPStubs stubRequestsPassingTest:withStubResponse:]
+-[OHHTTPStubs dealloc]
+-[OHHTTPStubs init]
++[OHHTTPStubs initialize]
++[OHHTTPStubs sharedInstance]
+-[OHHTTPStubsDescriptor .cxx_destruct]
+-[OHHTTPStubsDescriptor setResponseBlock:]
+-[OHHTTPStubsDescriptor responseBlock]
+-[OHHTTPStubsDescriptor setTestBlock:]
+-[OHHTTPStubsDescriptor testBlock]
+-[OHHTTPStubsDescriptor setName:]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/OHHTTPStubs.h
+-[OHHTTPStubsDescriptor name]
+-[OHHTTPStubsDescriptor description]
++[OHHTTPStubsDescriptor stubDescriptorWithTestBlock:responseBlock:]
++[NSURLSessionConfiguration(OHHTTPStubsSupport) load]
+OHHTTPStubsSwizzle
+OHHTTPStubs_defaultSessionConfiguration
+OHHTTPStubs_ephemeralSessionConfiguration
+orig_defaultSessionConfiguration
+orig_ephemeralSessionConfiguration
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSURLSessionConfiguration_$_OHHTTPStubsSupport
+l_OBJC_$_CATEGORY_NSURLSessionConfiguration_$_OHHTTPStubsSupport
+OBJC_METH_VAR_NAME_4
+OBJC_SELECTOR_REFERENCES_5
+OBJC_CLASSLIST_REFERENCES_$_6
+OBJC_METH_VAR_NAME_7
+OBJC_SELECTOR_REFERENCES_8
+OBJC_LABEL_CATEGORY_$
+OBJC_LABEL_NONLAZY_CATEGORY_$
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/NSURLSession/OHHTTPStubs+NSURLSessionConfiguration.m
++[NSURLSessionConfiguration(OHHTTPStubsSupport) load]
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktailsAtPath:inBundle:error:]
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktailNamed:inBundle:error:]
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktail:error:]
+__57+[OHHTTPStubs(Mocktail) stubRequestsUsingMocktail:error:]_block_invoke
+__57+[OHHTTPStubs(Mocktail) stubRequestsUsingMocktail:error:]_block_invoke110
+__copy_helper_block_136
+__destroy_helper_block_137
+.str7
+_unnamed_cfstring_8
+OBJC_METH_VAR_NAME_9
+OBJC_SELECTOR_REFERENCES_10
+OBJC_CLASSLIST_REFERENCES_$_11
+OBJC_SELECTOR_REFERENCES_13
+OBJC_METH_VAR_NAME_14
+OBJC_SELECTOR_REFERENCES_15
+OBJC_METH_VAR_NAME_16
+OBJC_SELECTOR_REFERENCES_17
+OBJC_SELECTOR_REFERENCES_19
+.str20
+_unnamed_cfstring_21
+OBJC_CLASSLIST_REFERENCES_$_22
+OBJC_METH_VAR_NAME_23
+OBJC_SELECTOR_REFERENCES_24
+OBJC_METH_VAR_NAME_25
+OBJC_SELECTOR_REFERENCES_26
+.str27
+_unnamed_cfstring_28
+OBJC_METH_VAR_NAME_29
+OBJC_SELECTOR_REFERENCES_30
+OBJC_CLASSLIST_REFERENCES_$_31
+OBJC_SELECTOR_REFERENCES_33
+OBJC_METH_VAR_NAME_34
+OBJC_SELECTOR_REFERENCES_35
+OBJC_METH_VAR_NAME_36
+OBJC_SELECTOR_REFERENCES_37
+OBJC_SELECTOR_REFERENCES_39
+.str40
+_unnamed_cfstring_41
+OBJC_METH_VAR_NAME_42
+OBJC_SELECTOR_REFERENCES_43
+OBJC_METH_VAR_NAME_44
+OBJC_SELECTOR_REFERENCES_45
+OBJC_SELECTOR_REFERENCES_47
+.str48
+_unnamed_cfstring_49
+.str50
+_unnamed_cfstring_51
+OBJC_METH_VAR_NAME_52
+OBJC_SELECTOR_REFERENCES_53
+.str54
+_unnamed_cfstring_55
+OBJC_CLASSLIST_REFERENCES_$_56
+OBJC_METH_VAR_NAME_57
+OBJC_SELECTOR_REFERENCES_58
+.str59
+_unnamed_cfstring_60
+OBJC_SELECTOR_REFERENCES_62
+.str63
+_unnamed_cfstring_64
+OBJC_SELECTOR_REFERENCES_66
+.str67
+_unnamed_cfstring_68
+OBJC_CLASSLIST_REFERENCES_$_69
+OBJC_METH_VAR_NAME_70
+OBJC_SELECTOR_REFERENCES_71
+OBJC_METH_VAR_NAME_72
+OBJC_SELECTOR_REFERENCES_73
+.str74
+_unnamed_cfstring_75
+.str76
+_unnamed_cfstring_77
+_unnamed_cfstring_81
+OBJC_METH_VAR_NAME_82
+OBJC_SELECTOR_REFERENCES_83
+.str84
+_unnamed_cfstring_85
+.str86
+_unnamed_cfstring_87
+OBJC_METH_VAR_NAME_90
+OBJC_SELECTOR_REFERENCES_91
+OBJC_METH_VAR_NAME_92
+OBJC_SELECTOR_REFERENCES_93
+OBJC_METH_VAR_NAME_94
+OBJC_SELECTOR_REFERENCES_95
+OBJC_METH_VAR_NAME_96
+OBJC_SELECTOR_REFERENCES_97
+.str98
+_unnamed_cfstring_99
+OBJC_METH_VAR_NAME_100
+OBJC_SELECTOR_REFERENCES_101
+OBJC_CLASSLIST_REFERENCES_$_102
+OBJC_METH_VAR_NAME_107
+OBJC_SELECTOR_REFERENCES_108
+.str109
+OBJC_METH_VAR_NAME_111
+OBJC_SELECTOR_REFERENCES_112
+.str113
+_unnamed_cfstring_114
+OBJC_CLASSLIST_REFERENCES_$_115
+OBJC_METH_VAR_NAME_118
+OBJC_SELECTOR_REFERENCES_119
+OBJC_CLASSLIST_REFERENCES_$_122
+OBJC_METH_VAR_NAME_123
+OBJC_SELECTOR_REFERENCES_124
+OBJC_METH_VAR_NAME_125
+OBJC_SELECTOR_REFERENCES_126
+OBJC_METH_VAR_NAME_127
+OBJC_SELECTOR_REFERENCES_128
+OBJC_METH_VAR_NAME_129
+OBJC_SELECTOR_REFERENCES_130
+OBJC_CLASSLIST_REFERENCES_$_131
+OBJC_METH_VAR_NAME_132
+OBJC_SELECTOR_REFERENCES_133
+OBJC_SELECTOR_REFERENCES_135
+.str138
+__block_descriptor_tmp139
+OBJC_SELECTOR_REFERENCES_141
+OBJC_METH_VAR_NAME_143
+OBJC_METH_VAR_TYPE_144
+l_OBJC_$_CATEGORY_CLASS_METHODS_OHHTTPStubs_$_Mocktail
+l_OBJC_$_CATEGORY_OHHTTPStubs_$_Mocktail
+NSMakeRange
+/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/Mocktail/OHHTTPStubs+Mocktail.m
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktail:error:]
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktailNamed:inBundle:error:]
++[OHHTTPStubs(Mocktail) stubRequestsUsingMocktailsAtPath:inBundle:error:]
++[OHHTTPStubsResponse responseWithData:statusCode:headers:]
++[OHHTTPStubsResponse responseWithFileAtPath:statusCode:headers:]
++[OHHTTPStubsResponse responseWithFileURL:statusCode:headers:]
++[OHHTTPStubsResponse responseWithError:]
+-[OHHTTPStubsResponse responseTime:]
+-[OHHTTPStubsResponse requestTime:responseTime:]
+-[OHHTTPStubsResponse init]
+-[OHHTTPStubsResponse initWithInputStream:dataSize:statusCode:headers:]
+-[OHHTTPStubsResponse initWithFileAtPath:statusCode:headers:]
+-[OHHTTPStubsResponse initWithFileURL:statusCode:headers:]
+-[OHHTTPStubsResponse initWithData:statusCode:headers:]
+-[OHHTTPStubsResponse initWithError:]
+-[OHHTTPStubsResponse debugDescription]
+-[OHHTTPStubsResponse setRequestTime:]
+-[OHHTTPStubsResponse httpHeaders]
+-[OHHTTPStubsResponse setHttpHeaders:]
+-[OHHTTPStubsResponse statusCode]
+-[OHHTTPStubsResponse setStatusCode:]
+-[OHHTTPStubsResponse inputStream]
+-[OHHTTPStubsResponse setInputStream:]
+-[OHHTTPStubsResponse dataSize]
+-[OHHTTPStubsResponse setDataSize:]
+-[OHHTTPStubsResponse requestTime]
+-[OHHTTPStubsResponse responseTime]
+-[OHHTTPStubsResponse setResponseTime:]
+-[OHHTTPStubsResponse error]
+-[OHHTTPStubsResponse setError:]
+-[OHHTTPStubsResponse .cxx_destruct]
+OBJC_METH_VAR_NAME_5
+OBJC_SELECTOR_REFERENCES_6
+OBJC_IVAR_$_OHHTTPStubsResponse._responseTime
+OBJC_IVAR_$_OHHTTPStubsResponse._requestTime
+OBJC_IVAR_$_OHHTTPStubsResponse._inputStream
+OBJC_IVAR_$_OHHTTPStubsResponse._dataSize
+OBJC_IVAR_$_OHHTTPStubsResponse._statusCode
+OBJC_METH_VAR_NAME_11
+OBJC_SELECTOR_REFERENCES_12
+OBJC_METH_VAR_NAME_13
+OBJC_SELECTOR_REFERENCES_14
+OBJC_CLASSLIST_REFERENCES_$_15
+.str16
+_unnamed_cfstring_17
+OBJC_METH_VAR_NAME_20
+OBJC_SELECTOR_REFERENCES_21
+OBJC_IVAR_$_OHHTTPStubsResponse._httpHeaders
+OBJC_CLASSLIST_REFERENCES_$_23
+OBJC_SELECTOR_REFERENCES_25
+.str26
+_unnamed_cfstring_27
+__PRETTY_FUNCTION__.-[OHHTTPStubsResponse initWithFileURL:statusCode:headers:]
+OBJC_CLASSLIST_REFERENCES_$_28
+OBJC_CLASSLIST_REFERENCES_$_29
+OBJC_SELECTOR_REFERENCES_31
+OBJC_SELECTOR_REFERENCES_41
+OBJC_IVAR_$_OHHTTPStubsResponse._error
+.str44
+_unnamed_cfstring_45
+OBJC_SELECTOR_REFERENCES_49
+OBJC_METH_VAR_NAME_50
+OBJC_SELECTOR_REFERENCES_51
+OBJC_METH_VAR_NAME_54
+OBJC_SELECTOR_REFERENCES_55
+OBJC_METH_VAR_NAME_56
+OBJC_METH_VAR_NAME_58
+l_OBJC_$_CLASS_METHODS_OHHTTPStubsResponse
+l_OBJC_METACLASS_RO_$_OHHTTPStubsResponse
+OBJC_CLASS_NAME_61
+OBJC_METH_VAR_NAME_62
+OBJC_METH_VAR_TYPE_65
+OBJC_METH_VAR_TYPE_67
+OBJC_METH_VAR_NAME_68
+OBJC_METH_VAR_TYPE_70
+OBJC_METH_VAR_NAME_71
+OBJC_METH_VAR_TYPE_72
+OBJC_METH_VAR_NAME_73
+OBJC_METH_VAR_NAME_74
+OBJC_METH_VAR_TYPE_75
+OBJC_METH_VAR_TYPE_76
+OBJC_METH_VAR_NAME_77
+OBJC_METH_VAR_TYPE_78
+OBJC_METH_VAR_NAME_79
+OBJC_METH_VAR_NAME_80
+OBJC_METH_VAR_TYPE_81
+OBJC_METH_VAR_TYPE_83
+OBJC_METH_VAR_TYPE_84
+OBJC_METH_VAR_NAME_85
+OBJC_METH_VAR_NAME_87
+l_OBJC_$_INSTANCE_METHODS_OHHTTPStubsResponse
+OBJC_METH_VAR_TYPE_89
+OBJC_METH_VAR_TYPE_91
+OBJC_METH_VAR_TYPE_93
+OBJC_METH_VAR_TYPE_95
+OBJC_METH_VAR_TYPE_97
+OBJC_METH_VAR_NAME_98
+OBJC_METH_VAR_TYPE_99
+l_OBJC_$_INSTANCE_VARIABLES_OHHTTPStubsResponse
+OBJC_PROP_NAME_ATTR_101
+OBJC_PROP_NAME_ATTR_102
+OBJC_PROP_NAME_ATTR_103
+OBJC_PROP_NAME_ATTR_104
+OBJC_PROP_NAME_ATTR_105
+OBJC_PROP_NAME_ATTR_106
+OBJC_PROP_NAME_ATTR_107
+OBJC_PROP_NAME_ATTR_108
+OBJC_PROP_NAME_ATTR_109
+OBJC_PROP_NAME_ATTR_110
+OBJC_PROP_NAME_ATTR_111
+OBJC_PROP_NAME_ATTR_112
+OBJC_PROP_NAME_ATTR_113
+l_OBJC_$_PROP_LIST_OHHTTPStubsResponse
+l_OBJC_CLASS_RO_$_OHHTTPStubsResponse
+-[OHHTTPStubsResponse .cxx_destruct]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/OHHTTPStubsResponse.m
+-[OHHTTPStubsResponse setError:]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/OHHTTPStubsResponse.h
+-[OHHTTPStubsResponse error]
+-[OHHTTPStubsResponse setResponseTime:]
+-[OHHTTPStubsResponse responseTime]
+-[OHHTTPStubsResponse requestTime]
+-[OHHTTPStubsResponse setDataSize:]
+-[OHHTTPStubsResponse dataSize]
+-[OHHTTPStubsResponse setInputStream:]
+-[OHHTTPStubsResponse inputStream]
+-[OHHTTPStubsResponse setStatusCode:]
+-[OHHTTPStubsResponse statusCode]
+-[OHHTTPStubsResponse setHttpHeaders:]
+-[OHHTTPStubsResponse httpHeaders]
+-[OHHTTPStubsResponse setRequestTime:]
+-[OHHTTPStubsResponse debugDescription]
+-[OHHTTPStubsResponse initWithError:]
+-[OHHTTPStubsResponse initWithData:statusCode:headers:]
+-[OHHTTPStubsResponse initWithFileURL:statusCode:headers:]
+-[OHHTTPStubsResponse initWithFileAtPath:statusCode:headers:]
+-[OHHTTPStubsResponse initWithInputStream:dataSize:statusCode:headers:]
+-[OHHTTPStubsResponse init]
+-[OHHTTPStubsResponse requestTime:responseTime:]
+-[OHHTTPStubsResponse responseTime:]
++[OHHTTPStubsResponse responseWithError:]
++[OHHTTPStubsResponse responseWithFileURL:statusCode:headers:]
++[OHHTTPStubsResponse responseWithFileAtPath:statusCode:headers:]
++[OHHTTPStubsResponse responseWithData:statusCode:headers:]
++[OHHTTPStubsResponse(JSON) responseWithJSONObject:statusCode:headers:]
+.str3
+_unnamed_cfstring_4
+OBJC_CLASSLIST_REFERENCES_$_7
+OBJC_CLASSLIST_REFERENCES_$_8
+l_OBJC_$_CATEGORY_CLASS_METHODS_OHHTTPStubsResponse_$_JSON
+l_OBJC_$_CATEGORY_OHHTTPStubsResponse_$_JSON
++[OHHTTPStubsResponse(JSON) responseWithJSONObject:statusCode:headers:]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.m
++[OHHTTPStubsResponse(HTTPMessage) responseWithHTTPMessageData:]
++[OHHTTPStubsResponse(HTTPMessage) responseNamed:inBundle:]
+OBJC_CLASSLIST_REFERENCES_$_1
+OBJC_METH_VAR_NAME_2
+OBJC_SELECTOR_REFERENCES_3
+OBJC_CLASSLIST_REFERENCES_$_10
+OBJC_SELECTOR_REFERENCES_16
+OBJC_METH_VAR_NAME_17
+OBJC_SELECTOR_REFERENCES_18
+OBJC_METH_VAR_NAME_19
+OBJC_SELECTOR_REFERENCES_20
+OBJC_METH_VAR_TYPE_22
+l_OBJC_$_CATEGORY_CLASS_METHODS_OHHTTPStubsResponse_$_HTTPMessage
+l_OBJC_$_CATEGORY_OHHTTPStubsResponse_$_HTTPMessage
+/Users/olivier/Library/Developer/Xcode/DerivedData/ModuleCache/3HCIV36SQC0I5/CFNetwork-7DM686ECDOYC.pcm
+CFNetwork
+/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/CFNetwork.framework
++[OHHTTPStubsResponse(HTTPMessage) responseNamed:inBundle:]
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/HTTPMessage/OHHTTPStubsResponse+HTTPMessage.m
++[OHHTTPStubsResponse(HTTPMessage) responseWithHTTPMessageData:]
+OHResourceBundle
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.m
+OHPathForFileInDocumentsDir
+OHPathForFileInBundle
+OHPathForFile
+_TTRXFo_oCSo12NSURLRequest_dSb_XFdCb_dS__dV10ObjectiveC8ObjCBool_
+block_copy_helper
+swift_retain_noresult
+block_destroy_helper
+_TTRXFo_oCSo12NSURLRequest_oCSo19OHHTTPStubsResponse_XFdCb_dS__aS0__
+block_copy_helper1
+block_destroy_helper2
+_TFF11OHHTTPStubs11isMethodGETFT_FCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs12isMethodPOSTFT_FCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs11isMethodPUTFT_FCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs14isMethodDELETEFT_FCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs8isSchemeFSSFCSo12NSURLRequestSbU_FS0_Sb
+objectdestroy
+_TPA__TFF11OHHTTPStubs8isSchemeFSSFCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs6isHostFSSFCSo12NSURLRequestSbU_FS0_Sb
+objectdestroy4
+_TPA__TFF11OHHTTPStubs6isHostFSSFCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs6isPathFSSFCSo12NSURLRequestSbU_FS0_Sb
+objectdestroy6
+_TPA__TFF11OHHTTPStubs6isPathFSSFCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs11isExtensionFSSFCSo12NSURLRequestSbU_FS0_Sb
+objectdestroy8
+_TPA__TFF11OHHTTPStubs11isExtensionFSSFCSo12NSURLRequestSbU_FS0_Sb
+_TFF11OHHTTPStubs19containsQueryParamsFGVSs10DictionarySSGSqSS__FCSo12NSURLRequestSbU_FS1_Sb
+objectdestroy10
+_TPA__TFF11OHHTTPStubs19containsQueryParamsFGVSs10DictionarySSGSqSS__FCSo12NSURLRequestSbU_FS1_Sb
+_TTSf1cl68_TTRXFo_oCSo14NSURLQueryItem_dSbzoPSs9ErrorType__XFo_iS__dSbzoPS0___XFo_oCSo14NSURLQueryItem_dSbzoPSs9ErrorType___n___TTSg5GSaCSo14NSURLQueryItem_GSaS__Ss12SequenceTypeSs_GVSs17IndexingGeneratorGSaS___GS1_GSaS___Ss13GeneratorTypeSs_S__GVSs10ArraySliceS_____TFeRq_Ss12SequenceType_SsS_6filteruRq_S__fq_FzFzqqq_S_9GeneratorSs13GeneratorType7ElementSbGSaqqq_S_9GeneratorS0_7Element_
+_TFFF11OHHTTPStubs19containsQueryParamsFGVSs10DictionarySSGSqSS__FCSo12NSURLRequestSbU_FS1_SbU_FCSo14NSURLQueryItemSb
+_TFZF11OHHTTPStubsoi2ooFTFCSo12NSURLRequestSbFS0_Sb_FS0_SbU_FS0_Sb
+objectdestroy12
+_TPA__TFZF11OHHTTPStubsoi2ooFTFCSo12NSURLRequestSbFS0_Sb_FS0_SbU_FS0_Sb
+_TFZF11OHHTTPStubsoi2aaFTFCSo12NSURLRequestSbFS0_Sb_FS0_SbU_FS0_Sb
+objectdestroy14
+_TPA__TFZF11OHHTTPStubsoi2aaFTFCSo12NSURLRequestSbFS0_Sb_FS0_SbU_FS0_Sb
+objectdestroy16
+_TPA__TFZF11OHHTTPStubsop1nFFCSo12NSURLRequestSbFS0_SbU_FS0_Sb
+_TTSg5SSSSSs8HashableSs_GSqSS____TFOSs25_VariantDictionaryStorage8generateu0_Rq_Ss8Hashable_fGS_q_q0__FT_GVSs19DictionaryGeneratorq_q0__
+objectdestroy18
+_TPA__TFFF11OHHTTPStubs19containsQueryParamsFGVSs10DictionarySSGSqSS__FCSo12NSURLRequestSbU_FS1_SbU_FCSo14NSURLQueryItemSb
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBuffer19_getElementSlowPathurfGS_q__FSiPSs9AnyObject_
+swift_fixLifetime
+L_selector_data(allocWithZone:)
+L_selector(allocWithZone:)
+_TMLCSo8NSObject
+_TMLPSs9AnyObject_
+_PROTOCOL__TtPSs9AnyObject_
+l_OBJC_LABEL_PROTOCOL_$__TtPSs9AnyObject_
+l_OBJC_PROTOCOL_REFERENCE_$__TtPSs9AnyObject_
+L_selector_data(initWithFileAtPath:statusCode:headers:)
+L_selector(initWithFileAtPath:statusCode:headers:)
+block_descriptor
+block_descriptor3
+L_selector_data(stubRequestsPassingTest:withStubResponse:)
+L_selector(stubRequestsPassingTest:withStubResponse:)
+metadata
+metadata5
+metadata7
+metadata9
+metadata11
+metadata13
+metadata15
+metadata17
+_swift_FORCE_LOAD_$_swiftFoundation_$_OHHTTPStubs
+_swift_FORCE_LOAD_$_swiftObjectiveC_$_OHHTTPStubs
+_swift_FORCE_LOAD_$_swiftDarwin_$_OHHTTPStubs
+_swift_FORCE_LOAD_$_swiftDispatch_$_OHHTTPStubs
+L_selector_data(URL)
+L_selector(URL)
+L_selector_data(initWithURL:resolvingAgainstBaseURL:)
+L_selector(initWithURL:resolvingAgainstBaseURL:)
+L_selector_data(queryItems)
+L_selector(queryItems)
+_TMLCSo14NSURLQueryItem
+metadata19
+L_selector_data(count)
+L_selector(count)
+_TMLGCSs23_ContiguousArrayStorageCSo14NSURLQueryItem_
+L_selector_data(objectAtIndex:)
+L_selector(objectAtIndex:)
+L_selector_data(name)
+L_selector(name)
+L_selector_data(value)
+L_selector(value)
+L_selector_data(pathExtension)
+L_selector(pathExtension)
+L_selector_data(path)
+L_selector(path)
+L_selector_data(host)
+L_selector(host)
+L_selector_data(scheme)
+L_selector(scheme)
+L_selector_data(HTTPMethod)
+L_selector(HTTPMethod)
+Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)
+-emit-bc -primary-file /Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift -target armv7-apple-ios8.0 -enable-objc-interop -sdk "/Applications/Xcode 7.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk" -I /Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Products/Release-iphoneos -F /Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Products/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/olivier/Library/Developer/Xcode/DerivedData/ModuleCache -serialize-debugging-options -Xcc "-I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/swift-overrides.hmap" -Xcc -iquote -Xcc "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/OHHTTPStubs-generated-files.hmap" -Xcc "-I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/OHHTTPStubs-own-target-headers.hmap" -Xcc "-I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/OHHTTPStubs-all-non-framework-target-headers.hmap" -Xcc -ivfsoverlay -Xcc /Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/all-product-headers.yaml -Xcc -iquote -Xcc "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/OHHTTPStubs-project-headers.hmap" -Xcc -I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Products/Release-iphoneos/include -Xcc "-I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/DerivedSources/armv7" -Xcc "-I/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/DerivedSources" -Xcc -ivfsoverlay -Xcc "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/unextended-module-overlay.yaml" -Xcc -working-directory/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs -emit-module-doc-path "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/Objects-normal/armv7/OHHTTPStubsSwift~partial.swiftdoc" -O -parse-as-library -module-name OHHTTPStubs -emit-module-path "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/Objects-normal/armv7/OHHTTPStubsSwift~partial.swiftmodule" -serialize-diagnostics-path "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/Objects-normal/armv7/OHHTTPStubsSwift.dia" -emit-dependencies-path "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/Objects-normal/armv7/OHHTTPStubsSwift.d" -o "/Users/olivier/Library/Developer/Xcode/DerivedData/OHHTTPStubs-hgwavajvzeqqkycfwkrvatexfwom/Build/Intermediates/OHHTTPStubs.build/Release-iphoneos/OHHTTPStubs iOS Framework.build/Objects-normal/armv7/OHHTTPStubsSwift.bc" -resource-dir "/Applications/Xcode 7.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift"
+__swift_memmove_array4_4
+OHHTTPStubsSwift.swift
+/Users/olivier/Documents/Dev/GitHub/AliSoftware/OHHTTPStubs/OHHTTPStubs/Sources/Swift
+__swift_memcpy_array4_4
+__swift_memcpy4_4
+_TFSSCfMSSFT21_builtinStringLiteralBp8byteSizeBw7isASCIIBi1__SS
+_TTSf4n_n_n_d___TFSSCfMSSFT21_builtinStringLiteralBp8byteSizeBw7isASCIIBi1__SS
+_TTSg5SSSSSs8HashableSs_GSqSS____TZFVSs19DictionaryGenerator7_Nativeu0_Rq_Ss8Hashable_fMGS_q_q0__FT5startGVSs22_NativeDictionaryIndexq_q0__3endGS1_q_q0__5ownerGCSs29_NativeDictionaryStorageOwnerq_q0___GS_q_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs24_NativeDictionaryStorageg8endIndexGVSs22_NativeDictionaryIndexq_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TFOSs25_VariantDictionaryStorageg6nativeGVSs24_NativeDictionaryStorageq_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs19DictionaryGeneratorCu0_Rq_Ss8Hashable_fMGS_q_q0__FT6_stateGOSs33DictionaryGeneratorRepresentationq_q0___GS_q_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TZFVSs19DictionaryGenerator6_Cocoau0_Rq_Ss8Hashable_fMGS_q_q0__FCSs25_CocoaDictionaryGeneratorGS_q_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs24_NativeDictionaryStorageg10startIndexGVSs22_NativeDictionaryIndexq_q0__
+_TTWSSSs9EquatableSsZFS_oi2eeuRq_S__fMq_FTq_q__Sb
+_TTSg5SSSSSs9EquatableSs___TZFSsoi2eeuRq_Ss9Equatable_FTGSqq__GSqq___Sb
+_TZFSsoi2eeFTSSSS_Sb
+_TTSf4gs_gs___TZFSsoi2eeFTSSSS_Sb
+_TTRXFo_oCSo14NSURLQueryItem_dSbzoPSs9ErrorType__XFo_iS__dSbzoPS0___
+_TTSg5PSs9AnyObject____TFVSs12_ArrayBufferCurfMGS_q__FT7storageGVSs14_BridgeStorageCSs27_ContiguousArrayStorageBasePSs16_NSArrayCoreType___GS_q__
+_TTSg5CSo14NSURLQueryItem_PSs9AnyObject____TFVSs12_ArrayBuffer14castToBufferOfu__rfGS_q__FMqd__GS_qd___
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBuffer10getElementurfGS_q__FTSi32hoistedIsNativeNoTypeCheckBufferSb_q_
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferg9subscriptFSiq_
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBuffer17_isValidSubscripturfGS_q__FTSi21hoistedIsNativeBufferSb_Sb
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg18_nativeNoTypeCheckGVSs22_ContiguousArrayBufferq__
+_TTSg5CSo14NSURLQueryItem___TFVSs20UnsafeMutablePointer18moveInitializeFromurfGS_q__FTGS_q__5countSi_T_
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerg19_allocatedByteCountSi
+_TTSg5CSo14NSURLQueryItem___TFSs25_isClassOrObjCExistentialurFMq_Sb
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerCu0_rfMGS_q_q0__FT21_uncheckedBufferClassPMPSs9AnyObject_15minimumCapacitySi_GS_q_q0__
+_TTSg5CSo14NSURLQueryItem___TFVSs20UnsafeMutablePointer10initializeurfGS_q__Fq_T_
+_TTSg5CSo14NSURLQueryItem___TFVSs20UnsafeMutablePointer9successorurfGS_q__FT_GS_q__
+_TTSg5CSo14NSURLQueryItem___TFSaCurfMGSaq__FGVSs12_ArrayBufferq__GSaq__
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferCurfMGS_q__FTGVSs22_ContiguousArrayBufferq__19shiftedToStartIndexSi_GS_q__
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferg8_storageCSs27_ContiguousArrayStorageBase
+_TTSg5GSaCSo14NSURLQueryItem_GSaS__Ss12SequenceTypeSs_GVSs17IndexingGeneratorGSaS___GS1_GSaS___Ss13GeneratorTypeSs_S__GVSs10ArraySliceS_____TFFeRq_Ss12SequenceType_SsS_6filteruRq_S__Fq_FzFzqqq_S_9GeneratorSs13GeneratorType7ElementSbGSaqqq_S_9GeneratorS0_7Element_L_6$deferfT_T_
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBuffers5countSi
+_TTSg5CSo14NSURLQueryItem___TFVSs48_UnsafePartiallyInitializedContiguousArrayBuffer6finishurfRGS_q__FT_GVSs22_ContiguousArrayBufferq__
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBuffer10getElementurfGS_q__FTSi32hoistedIsNativeNoTypeCheckBufferSb_q_
+_TTSg5CSo14NSURLQueryItem___TFSa11_getElementurfGSaq__FTSi32hoistedIsNativeNoTypeCheckBufferSb_q_
+_TTSg5CSo14NSURLQueryItem___TFSa15_checkSubscripturfGSaq__FTSi32hoistedIsNativeNoTypeCheckBufferSb_T_
+_TTWSiSs14_IncrementableSsFS_17_successorInPlaceuRq_S__fRq_FT_T_
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBuffer17_isValidSubscripturfGS_q__FTSi32hoistedIsNativeNoTypeCheckBufferSb_Sb
+_TTSg5CSo14NSURLQueryItem___TTWurGSaq__Ss9IndexableSsFS_g8endIndexqq_S_5Index
+_TTSg5CSo14NSURLQueryItem___TFSag10startIndexSi
+_TTSg5CSo14NSURLQueryItem___TTWurGSaq__Ss12SequenceTypeSsFS_8generateuRq_S__fq_FT_qq_S_9Generator
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerg15_elementPointerGVSs20UnsafeMutablePointerq0__
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TZFVSs20ManagedBufferPointerg14_elementOffsetSi
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferg19firstElementAddressGVSs20UnsafeMutablePointerq__
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerg21allocatedElementCountSi
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TZFVSs20ManagedBufferPointerg14_alignmentMaskSi
+_TTWSiSs9EquatableSsZFS_oi2eeuRq_S__fMq_FTq_q__Sb
+_TTSg5CSo14NSURLQueryItem___TFVSs48_UnsafePartiallyInitializedContiguousArrayBuffer23addWithExistingCapacityurfRGS_q__Fq_T_
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferCurfMGS_q__FT_GS_q__
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferCurfMGS_q__FT5countSi15minimumCapacitySi_GS_q__
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferg8capacitySi
+_TTSg5CSo14NSURLQueryItem___TFVSs48_UnsafePartiallyInitializedContiguousArrayBuffer3addurfRGS_q__Fq_T_
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg20_isNativeNoTypeCheckSb
+_TTSg5GSaCSo14NSURLQueryItem_GSaS__Ss9IndexableSs_SiSiSs16ForwardIndexTypeSs_SiSiSs18_SignedIntegerTypeSs_SiSiSs33_BuiltinIntegerLiteralConvertibleSs_Si_S____TFVSs17IndexingGenerator4nextuRq_Ss9Indexable_fRGS_q__FT_GSqqq_S0_8_Element_
+_TTSg5CSo14NSURLQueryItem___TFSag9subscriptFSiq_
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg32arrayPropertyIsNativeNoTypeCheckSb
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerlu5valueq_
+_TTSg5GSaCSo14NSURLQueryItem_GSaS__Ss9IndexableSs_SiSiSs16ForwardIndexTypeSs_SiSiSs18_SignedIntegerTypeSs_SiSiSs33_BuiltinIntegerLiteralConvertibleSs_Si_S____TTWuRq_Ss9Indexable_GVSs17IndexingGeneratorq__Ss13GeneratorTypeSsFS1_4nextuRq_S1__fRq_FT_GSqqq_S1_7Element_
+_TTSg5CSo14NSURLQueryItem___TFSag8endIndexSi
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferg5countSi
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerg13_valuePointerGVSs20UnsafeMutablePointerq__
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TZFVSs20ManagedBufferPointerg12_valueOffsetSi
+_TTSg5VSs10_ArrayBody_CSo14NSURLQueryItem___TFVSs20ManagedBufferPointerg8_addressGVSs13UnsafePointerVSs5UInt8_
+_TTSg5CSo14NSURLQueryItem___TFVSs22_ContiguousArrayBufferCurfMGS_q__FCSs27_ContiguousArrayStorageBaseGS_q__
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg9_isNativeSb
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg5countSi
+_TTSg5CSo14NSURLQueryItem___TFSa9_getCounturfGSaq__FT_Si
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs22_NativeDictionaryIndexCu0_Rq_Ss8Hashable_fMGS_q_q0__FT13nativeStorageGVSs24_NativeDictionaryStorageq_q0__6offsetSi_GS_q_q0__
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TZFVSs11_HeapBuffer14_elementOffsetu0_rfMGS_q_q0__FT_Si
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TFVSs11_HeapBufferg11baseAddressGVSs20UnsafeMutablePointerq0__
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TFVSs11_HeapBufferg8_addressGVSs20UnsafeMutablePointerVSs4Int8_
+__swift_memmove_array12_4
+__swift_memcpy_array12_4
+__swift_noop_self_return
+__swift_memcpy12_4
+__swift_noop_void_return
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TZFVSs11_HeapBuffer12_valueOffsetu0_rfMGS_q_q0__FT_Si
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TFVSs11_HeapBufferg6_valueGVSs20UnsafeMutablePointerq__
+_TTSg5SSSSSs8HashableSs_GSqSS____TZFSsoi2eeu0_Rq_Ss8Hashable_FTGVSs22_NativeDictionaryIndexq_q0__GS0_q_q0___Sb
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs10Dictionary8generateu0_Rq_Ss8Hashable_fGS_q_q0__FT_GVSs19DictionaryGeneratorq_q0__
+init
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg10_nonNativePSs16_NSArrayCoreType_
+_TTSg5CSo14NSURLQueryItem___TFSag5countSi
+_TTSg5CSo14NSURLQueryItem___TFVSs12_ArrayBufferg7_nativeGVSs22_ContiguousArrayBufferq__
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TFVSs11_HeapBufferg13_nativeObjectBo
+_TTSg5GVSs18_DictionaryElementSSGSqSS_____TZFSsoi2neurFTGSqq__VSs26_OptionalNilComparisonType_Sb
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs22_NativeDictionaryIndex9successoru0_Rq_Ss8Hashable_fGS_q_q0__FT_GS_q_q0__
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs24_NativeDictionaryStorage12assertingGetu0_Rq_Ss8Hashable_fGS_q_q0__FGVSs22_NativeDictionaryIndexq_q0__Tq_q0__
+_TTSg5VSs15_DictionaryBody_GSqGVSs18_DictionaryElementSSGSqSS______TFVSs11_HeapBufferlu5valueq_
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs19DictionaryGenerator4nextu0_Rq_Ss8Hashable_fRGS_q_q0__FT_GSqTq_q0___
+_TTSg5SSSSSs8HashableSs_GSqSS____TFVSs19DictionaryGenerator11_nativeNextu0_Rq_Ss8Hashable_fRGS_q_q0__FT_GSqTq_q0___
+_TFZF11OHHTTPStubsop1nFFCSo12NSURLRequestSbFS0_SbU_FS0_Sb
+!
+&&
+||
+containsQueryParams
+isExtension
+isPath
+isHost
+isScheme
+isMethodDELETE
+isMethodPUT
+isMethodPOST
+isMethodGET
+stub
+fixture
+_TIF11OHHTTPStubs7fixtureFTSS6statusVSs5Int327headersGSqGVSs10DictionaryCSo8NSObjectPSs9AnyObject____CSo19OHHTTPStubsResponseA0_
+Apple LLVM version 7.0.0 (clang-700.1.75)
+/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/org.llvm.clang.root/ModuleCache/3HWQP4MR9YK1U/Foundation-E7AIY98HG4IO.pcm
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk/System/Library/Frameworks/Foundation.framework
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=4.3 -g -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -fmodules -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/cf.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/cf.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-63/source/cf.m -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/cf.o -mlinker-version=253.3.2 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-63/source/cf.m
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-63
+_ZL15__ARCLite__loadv
+_ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+_ZL34__arclite_objc_autoreleasePoolPushv
+_ZL33__arclite_objc_autoreleasePoolPopPv
+_ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+_ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+_ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+_ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+_ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+_ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL18add_image_hook_ARCPK11mach_headerl
+_ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+_ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+_ZL21__arclite_object_copyP11objc_objectm
+_ZL21__arclite_objc_retainP11objc_object
+_ZL26__arclite_objc_retainBlockP11objc_object
+_ZL22__arclite_objc_releaseP11objc_object
+_ZL26__arclite_objc_autoreleaseP11objc_object
+_ZL32__arclite_objc_retainAutoreleaseP11objc_object
+_ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+_ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+_ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+_ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+_ZL23NSAutoreleasePool_class
+_ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+_ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+.str1
+.str2
+.str5
+.str6
+.str10
+.str13
+.str17
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+OBJC_SELECTOR_REFERENCES_22
+OBJC_METH_VAR_NAME_27
+OBJC_SELECTOR_REFERENCES_28
+OBJC_CLASS_NAME_32
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+OBJC_SELECTOR_REFERENCES_34
+.str35
+OBJC_SELECTOR_REFERENCES_36
+OBJC_SELECTOR_REFERENCES_38
+OBJC_METH_VAR_NAME_39
+OBJC_SELECTOR_REFERENCES_40
+_ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+_ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+.str41
+.str42
+.str43
+.str45
+.str46
+.str47
+.str49
+.str51
+.str52
+OBJC_METH_VAR_NAME_53
+OBJC_SELECTOR_REFERENCES_54
+OBJC_METH_VAR_NAME_55
+OBJC_SELECTOR_REFERENCES_56
+.str60
+_ZL30NSUndoManagerProxy_targetClass
+.str64
+_ZL29original_NSManagedObject_init
+OBJC_SELECTOR_REFERENCES_68
+_ZL40original_NSManagedObject_allocWithEntity
+OBJC_SELECTOR_REFERENCES_70
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+.str71
+_ZL22NSConstantString_class
+.str72
+_ZL14NSString_class
+.str73
+OBJC_SELECTOR_REFERENCES_75
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+.str78
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+OBJC_SELECTOR_REFERENCES_80
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str81
+.str82
+_ZL31original_objc_allocateClassPair
+.str83
+_ZL31original_object_getIndexedIvars
+_ZL22original_objc_getClass
+.str85
+_ZL26original_objc_getMetaClass
+_ZL30original_objc_getRequiredClass
+.str87
+_ZL25original_objc_lookUpClass
+.str88
+_ZL25original_objc_getProtocol
+.str89
+_ZL22original_class_getName
+.str90
+_ZL25original_protocol_getName
+.str91
+_ZL36original_objc_copyClassNamesForImage
+.str96
+.str97
+.str99
+.str100
+.str101
+.str102
+.str103
+_ZL12demangleLock
+_ZL9Demangled
+.str104
+.str105
+OBJC_METH_VAR_NAME_106
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-63/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-63~53/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=253.3.2 -march=armv7a
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-63/source/arclite.mm
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+patch_t<void (id *, id)>
+__arclite_objc_storeStrong
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+patch_t<void (id)>
+__arclite_objc_release
+__arclite_objc_retainBlock
+patch_t<id (id)>
+__arclite_objc_retain
+patch_t<id (id, unsigned long)>
+fixupCopiedReferences
+classOrSuperClassesUseARR
+__arclite_object_copy
+patch_t<void (id, objc_ivar *, id)>
+isScannedOffset
+alignedInstanceStart
+_class_getInstanceStart
+data
+__arclite_class_usesAutomaticRetainRelease
+_ivar_getClass
+__arclite_object_setIvar
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.Internal.sdk/usr/include/objc/objc-auto.h
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+keyedGetter
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+indexedGetter
+__arclite_NSArray_objectAtIndexedSubscript
+addMethod
+install_subscripting
+patch_lazy_pointers
+patch_t<void (void *)>
+__arclite_objc_autoreleasePoolPop
+patch_t<void *()>
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+install_autoreleasepool
+__ARCLite__load
+objc_unretainedPointer
+objc_unretainedObject
+objc_retainedObject

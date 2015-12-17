@@ -1,0 +1,10 @@
+framework module JSONCodable {
+  umbrella header "JSONCodable.h"
+
+  export *
+  module * { export * }
+}
+
+module JSONCodable.Swift {
+    header "JSONCodable-Swift.h"
+}
