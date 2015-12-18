@@ -22,6 +22,7 @@
 1. [KeychainAccess](http://theiostimes.com/advent-calendar/keychainaccess.html)
 1. [ios-charts](http://theiostimes.com/advent-calendar/ioscharts.html)
 1. [OHHTTPStubs](http://theiostimes.com/advent-calendar/ohhttpstubs.html)
+1. [SDWebImage](http://theiostimes.com/advent-calendar/sdwebimage.html)
 
 ---
 
